@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game List with Vue.js</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+</head>
+<body>
+    <div id="app">
+        <div class="search-bar">
+            <input v-model="searchQuery" placeholder="Search by title, genre, or release date">
+        </div>
+        
+        <div class="sort-options">
+            <button @click="sortGames('title')">Sort by Title</button>
+            <button @click="sortGames('release_date')">Sort by Release Date</button>
+            <button @click="sortGames('price')">Sort by Price</button>
+        </div>
+        
+        <div id="game-cards">
+            <div v-for="game in filteredGames" :key="game.title" class="card">
+                <img :src="game.image" :alt="game.title">
+                <h3>{{ game.title }}</h3>
+                <p>Price: ${{ game.price.toFixed(2) }}</p>
+                <p>Release Date: {{ game.release_date }}</p>
+                <p>Genre: {{ game.genre }}</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
