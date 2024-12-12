@@ -1,0 +1,49 @@
+p {
+    font-weight: bold;
+    font-size: small;
+}
+
+.header {
+    margin-top: 6em;
+    margin-left: 11em;
+  }
+  
+  .date, .code {
+    display: inline-block;
+    margin-top: 2.5em;
+    margin-left: 9em;
+  }
+  
+
+  .surname {
+    margin-top: 17em;
+    margin-left: 20em;
+  }
+  
+  .name {
+    margin-top: 3em;
+    margin-left: 17em;
+  }
+
+  .patronymic {
+    margin-left: 18em;
+    margin-bottom: 0.1em;
+  }
+
+  .gender, .birthdate {
+    display: inline-block;
+    padding-right: -7em;
+    margin-left: 15em;
+    margin-bottom: 0.1em;
+  }
+
+  .city {
+    margin-left: 17em;
+  }
+
+  button {
+    margin-top: 15em;
+    position: absolute;
+    top: 50%;
+    left: 23%;
+  }
