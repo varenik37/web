@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <!-- Блок с кнопками для сортировки. -->
+    <div class="sort-options">
+        <button onclick="sortAndDisplay('title')">Sort by Title</button>
+        <button onclick="sortAndDisplay('release_date')">Sort by Release Date</button>
+        <button onclick="sortAndDisplay('price')">Sort by Price</button>
+    </div>
+
+    <!-- Карточки игр. -->
+    <div id="game-cards"></div>
+    <script src="script.js"></script>
+</body>
+</html>

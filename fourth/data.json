@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Farming Simulator 25",
+        "price": 1750,
+        "release_date": "2024-11-12",
+        "genre": "Simulation",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2300320/header.jpg?t=1729598544"
+    },
+    {
+        "title": "Rust",
+        "price": 1100,
+        "release_date": "2018-02-08",
+        "genre": "Action, RPG",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/252490/header.jpg?t=1727957298"
+    },
+    {
+        "title": "The Binding of Isaac:Rebirth",
+        "price": 449,
+        "release_date": "2014-11-04",
+        "genre": "Action",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/250900/header.jpg?t=1722458438"
+    },
+    {
+        "title": "Baldur's Gate 3",
+        "price": 1599,
+        "release_date": "2023-08-03",
+        "genre": "Adventure, RPG, Strategy",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1086940/header.jpg?t=1725654125"
+    },
+    {
+        "title": "Hades",
+        "price": 880,
+        "release_date": "2020-09-17",
+        "genre": "Action, Indie, RPG",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1145360/header.jpg?t=1715722799"
+    }
+]
