@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Треугольник</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .result { margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <!-- ПЕРВАЯ ЗАДАЧА -->
+    <h1>Проверка существования треугольника</h1>
+    <input type="number" id="sideA" placeholder="Длина стороны A">
+    <input type="number" id="sideB" placeholder="Длина стороны B">
+    <input type="number" id="sideC" placeholder="Длина стороны C">
+    <button onclick="checkTriangle()">Проверить</button>
+    <div class="result" id="triangleResult"></div>
+
+    
+
+    <!-- ВТОРАЯ ЗАДАЧА -->
+    <h2>Возведение числа в степень</h2>
+    <label for="inputY">Введите число Y:</label>
+    <input type="number" id="inputY" required><br>
+    
+    <button onclick="calculate()">Рассчитать</button>
+    
+    <p id="powerResult"></p>
+
+    
+
+    <!-- ТРЕТЬЯ ЗАДАЧА -->
+    <h2>Операции со счетом</h2>
+    <label for="amount">Введите сумму:</label>
+    <input type="number" id="amount" required><br>
+    
+    <label for="operation">Выберите операцию:</label>
+    <select id="operation">
+        <option value="deposit">Внести на счет</option>
+        <option value="withdraw">Снять со счета</option>
+    </select><br>
+    
+    <button onclick="handleOperation()">Выполнить операцию</button>
+    
+    <p id="balanceResult"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
