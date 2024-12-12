@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Игра Угадай Число</title>
+</head>
+<body>
+    <h1>Игра Угадай Число</h1>
+    <p><strong>Ваши баллы: <span id="score">0</span></strong></p>
+    <label for="min">Минимальное значение:</label>
+    <input type="number" id="min" required>
+    <br>
+    <label for="max">Максимальное значение:</label>
+    <input type="number" id="max" required>
+    <br><br>
+    <button onclick="startGame()">Начать игру</button>
+    <p id="errorMessage" style="color: red;"></p>
+
+    <div id="gameArea" style="display: none;">
+        <p>Осталось попыток: <span id="attemptsLeft">5</span></p>
+        <label for="guess">Введите ваше предположение:</label>
+        <br><br>
+        <input type="number" id="guess" required>
+        <p id="guessErrorMessage" style="color: red;"></p> <!-- Элемент для вывода сообщения об ошибке -->
+        <button id="guessButton" onclick="makeGuess()">Угадать</button>
+        <p id="result"></p>
+        <button id="restartButton" onclick="resetFields()" style="display: none;">Заново</button>
+    </div>
+</body>
+<script src="num2.js"></script>
+</html>

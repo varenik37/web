@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Найти ученика с самым низким средним баллом</title>
+</head>
+<body>
+    <h1>Найти ученика с самым низким средним баллом</h1>
+    
+    <!-- Поле для ввода имен учеников -->
+    <label for="names">Имена учеников (через запятую и пробел):</label>
+    <br><br>
+    <input type="text" id="names" required>
+
+    <br><br><br>
+    
+    <!-- Поле для ввода оценок -->
+    <label for="grades">Оценки (формат: '<оценка 1>-<оценка 2>-<оценка 3>' через пробел):</label>
+    <br><br>
+    <input type="text" id="grades" required>
+
+    <br><br><br>
+
+    <!-- Кнопка запуска обработки -->
+    <button onclick="findStudentWithLowestAverage()">Найти ученика</button>
+    
+    <!-- Место для вывода результата -->
+    <h2 id="result"></h2>
+
+    <script src="num3.js"></script>
+</body>
+</html>

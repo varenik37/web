@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Концерты</title>
+    <style>
+        #resultSection {
+            display: none; /* Скрываем блок результата по умолчанию */
+        }
+    </style>
+</head>
+<body>
+    <h1>Введите информацию о концертах</h1>
+    <textarea id="concertInput" rows="10" cols="50" placeholder="Введите информацию о концертах (название, дата)..."></textarea>
+    <br><br>
+    <button id="findGroupBtn">Найти группу</button>
+    <div id="resultSection"> <!-- Оборачиваем результат в блок -->
+        <h2>Результат:</h2>
+        <div id="result"></div>
+    </div>
+    <script src="num7.js"></script>
+</body>
+</html>
